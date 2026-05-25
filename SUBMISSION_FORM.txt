@@ -1,0 +1,64 @@
+XIAOMI MIMO 100T - SUBMISSION FORM DATA
+Generated: 2026-05-25T04:16:31.747Z
+
+═══════════════════════════════════════════════════════════════════
+
+PROJECT NAME:
+xiaomi-smart-home-ai
+
+REPOSITORY URL:
+https://github.com/1Windi03/xiaomi-smart-home-ai.git
+
+SHORT DESCRIPTION:
+AI-powered smart home control dashboard with natural language processing. Control your smart home devices using voice commands or text input.
+
+DETAILED DESCRIPTION:
+AI-Powered Smart Home Control Dashboard with Natural Language Processing
+
+🎯 Key Features:
+• 🗣️ **Natural Language Control** - Control devices with plain English commands
+• 🎤 **Voice Commands** - Hands-free control using Web Speech API
+• 📊 **Real-time Dashboard** - Live device status and energy monitoring
+• 🤖 **AI-Powered** - OpenAI GPT integration for intelligent command parsing
+• 📱 **Responsive Design** - Works on desktop, tablet, and mobile
+
+🛠️ Tech Stack:
+• Built with modern technologies
+• Clean, maintainable code
+• Comprehensive documentation
+
+📊 Project Stats:
+• 6 commits
+• 14 files
+• 77100 lines of code
+
+🔗 Repository: https://github.com/1Windi03/xiaomi-smart-home-ai.git
+
+Built for Xiaomi MiMo 100T Creator Program 🏆
+
+CATEGORY:
+AI/Machine Learning
+
+TAGS:
+xiaomi, mimo, 100t, ai, smart-home, iot, nlp, dashboard
+
+SOCIAL MEDIA POST:
+🚀 Just submitted my project to #XiaomiMiMo100T Creator Program!
+
+xiaomi-smart-home-ai
+AI-powered smart home control dashboard with natural language processing. Control your smart home devices using voice commands or text input.
+
+✨ 🗣️ **Natural Language Control** - Control devices with plain English commands
+✨ 🎤 **Voice Commands** - Hands-free control using Web Speech API
+✨ 📊 **Real-time Dashboard** - Live device status and energy monitoring
+
+Check it out: https://github.com/1Windi03/xiaomi-smart-home-ai.git
+
+#Xiaomi #MiMo #AI #OpenSource #Tech
+
+═══════════════════════════════════════════════════════════════════
+
+DEADLINE: May 28, 2026 23:59 UTC
+TIME REMAINING: 3d 19h
+
+═══════════════════════════════════════════════════════════════════
