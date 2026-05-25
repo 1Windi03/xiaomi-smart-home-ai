@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Smart Home Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏠 AI Smart Home Dashboard</h1>
+            <p class="subtitle">Control your home with natural language</p>
+        </header>
+
+        <div class="command-section">
+            <div class="input-group">
+                <input type="text" id="commandInput" placeholder="Try: 'turn on living room light' or 'set bedroom light to 50%'" />
+                <button id="sendBtn" class="btn-primary">Send</button>
+                <button id="voiceBtn" class="btn-voice" title="Voice Command">🎤</button>
+            </div>
+            <div id="response" class="response"></div>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-icon">💡</div>
+                <div class="stat-value" id="activeDevices">0</div>
+                <div class="stat-label">Active Devices</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">⚡</div>
+                <div class="stat-value" id="powerUsage">0W</div>
+                <div class="stat-label">Power Usage</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">📊</div>
+                <div class="stat-value" id="commandCount">0</div>
+                <div class="stat-label">Commands Today</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">🔒</div>
+                <div class="stat-value" id="securityStatus">Secure</div>
+                <div class="stat-label">Security Status</div>
+            </div>
+        </div>
+
+        <div class="main-grid">
+            <div class="devices-section">
+                <h2>Devices</h2>
+                <div id="devicesList" class="devices-grid"></div>
+            </div>
+
+            <div class="sidebar">
+                <div class="panel">
+                    <h3>Command History</h3>
+                    <div id="commandHistory" class="history-list"></div>
+                </div>
+
+                <div class="panel">
+                    <h3>Quick Actions</h3>
+                    <div class="quick-actions">
+                        <button class="quick-btn" data-cmd="turn on all lights">💡 All Lights On</button>
+                        <button class="quick-btn" data-cmd="turn off all lights">🌙 All Lights Off</button>
+                        <button class="quick-btn" data-cmd="lock all doors">🔒 Lock Doors</button>
+                        <button class="quick-btn" data-cmd="turn on living room ac">❄️ AC On</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Built with AI for Xiaomi MiMo 100T Creator Program | <a href="https://github.com/TiusLauren/xiaomi-smart-home-ai" target="_blank">GitHub</a></p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
